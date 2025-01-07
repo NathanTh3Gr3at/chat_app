@@ -19,15 +19,23 @@ class _NewMessageState extends State<NewMessage> {
 
   void _submitMessage() async {
     final enteredMessage = _messageController.text;
+
     if (enteredMessage.trim().isEmpty) {
       return;
     }
+
+    FocusScope.of(context).unfocus();
+    _messageController.clear();
+
     final user = FirebaseAuth.instance.currentUser!;
+
     final userData = await FirebaseFirestore.instance
         .collection('users')
         .doc(user.uid)
         .get();
+
     //send to firebase
+
     await FirebaseFirestore.instance.collection('chat').add({
       'text': enteredMessage,
       'createdAt': Timestamp.now(),
@@ -35,8 +43,6 @@ class _NewMessageState extends State<NewMessage> {
       'username': userData.data()!['username'],
       'userImage': userData.data()!['image_url'],
     });
-
-    _messageController.clear();
   }
 
   @override
