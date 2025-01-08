@@ -1,16 +1,13 @@
-# chat_app
+# The Chat App
+<br />
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## About:
+Allows users to login/sign up to a chat room. Each new user gives an email,password, image( for profile picture) and a username. The profile picture and username are not able to be changed after creation.
+All messages are stored on Firebase.
+## Features:
+  - Notifications (Firebase Messaging)
+  - Login/Sign uo with Firebase Authentication
+  - Profile pictures are stored in Firebase Storage
+  - Chat messages are saved to Firebase Realtime Database
+  - Riverpod For state management
+## Images: 
