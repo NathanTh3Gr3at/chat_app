@@ -74,6 +74,6 @@ class _NewMessageState extends State<NewMessage> {
         ],
       ),
     );
-    ;
+    
   }
 }
