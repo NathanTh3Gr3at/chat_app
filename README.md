@@ -11,3 +11,29 @@ All messages are stored on Firebase.
   - Chat messages are saved to Firebase Realtime Database
   - Riverpod For state management
 ## Images: 
+<table>
+  <tr>
+    <th>Screen Name</th>
+    <th>Screenshot</th>
+  </tr>
+  <tr>
+    <td><strong>Register Screen</strong></td>
+    <td><img src="screenshots/signup_screen.png"  width="180"></td>
+  </tr>
+   <tr>
+    <td><strong>Canera Open for Register</strong></td>
+    <td><img src="screenshots/camera_open.png" width="180"></td>
+  </tr>
+  <tr>
+    <td><strong>Login Screen</strong></td>
+    <td><img src="screenshots/login_screen.png"  width="180"></td>
+  </tr>
+  <tr>
+    <td><strong>Chat Screen</strong></td>
+    <td><img src="screenshots/chat_screen.png" width="180"></td>
+  </tr>
+ 
+</table>
+
+
+
