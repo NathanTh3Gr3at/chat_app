@@ -50,7 +50,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAI-_aeZOo-nQq6CcH1VoZkOC2Z2BIgqhM',
+    apiKey: 'AIzaSyBREnvQn__wEvMM8QpkoGGWL_dGodgui0U',
     appId: '1:313886739049:web:b384901dae1525f29170f8',
     messagingSenderId: '313886739049',
     projectId: 'flutter-chat-app-c0273',
